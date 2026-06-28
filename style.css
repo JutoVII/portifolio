@@ -1,0 +1,102 @@
+:root {
+    --primary-color: rgb(255, 255, 255);
+    --secondary-color: rgb(0, 0, 0);
+}
+
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+body {
+    background-color: var(--secondary-color);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    color : var(--primary-color);
+    cursor:none
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    height: 2rem;
+    padding: 1rem 2rem;
+    background-color: var(--secondary-color);
+    border-bottom: 1px solid var(--primary-color);
+    background-filter: blur(10px);
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+}
+
+.nav_links {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav_links a {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.nav_links img {
+    width: 20px;
+    filter: invert(1);
+}
+
+.avatar img {
+    width: 160px;
+    border-radius: 50%;
+    margin-top: 10rem;
+}
+
+.midias{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;  
+}
+
+#sobre{
+    margin-top: 6rem;
+}
+
+#experiencia{
+    margin-top: 6rem;
+}
+
+#projetos{
+    margin-top: 6rem;
+}
+
+#educação{
+    margin-top: 6rem;
+}
+
+#skills{
+    margin-top: 6rem;
+}
+
+#github{
+    margin-top: 6rem;
+}
+
+#sobre .experience-card{
+
+}
